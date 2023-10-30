@@ -16,8 +16,8 @@ const BLOG = {
   postsPerPage: 10,
   sortByDate: true,
   pagesShow: {
-    newsletter: true,
-    notes: true,
+    newsletter: false,
+    notes: false,
     projects: true,
     contact: false,
     books: true,
@@ -43,8 +43,8 @@ const BLOG = {
   notionDomain: 'cold-card-cc4.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
   telegramChatId: '000000000', // The chat id of your Telegram bot
-  telegramChannelUrl: 'https://channel.mohan.me/', // The link of your Telegram channel
-  telegramChannelName: 'mohan', // The name of your Telegram channel
+  telegramChannelUrl: 'https://t.me/', // The link of your Telegram channel
+  telegramChannelName: 'news', // The name of your Telegram channel
   craftConfigShareUrl: 'https://www.craft.me/s/fKrc5ASjTwF9Tu', // The link to share your craft config
   analytics: {
     provider: '', // Currently we support Google Analytics, Ackee, Umami and Cloudflare Insights, please fill with 'ga' or 'ackee' or 'umami' or 'cf', leave it empty to disable it.
